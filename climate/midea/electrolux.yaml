@@ -4,7 +4,7 @@ climate:
     icon: mdi:air-conditioner
     name: None
     id: midea_climate
-    autoconf: false
+    autoconf: true
     supported_modes:
       - FAN_ONLY
       - HEAT_COOL
