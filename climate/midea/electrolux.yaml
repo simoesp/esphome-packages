@@ -4,7 +4,7 @@ climate:
     icon: mdi:air-conditioner
     name: None
     id: midea_climate
-    autoconf: true
+    autoconf: false
     supported_modes:
       - FAN_ONLY
       - HEAT_COOL
@@ -19,8 +19,6 @@ climate:
       - FREEZE_PROTECTION
     supported_swing_modes:
       - VERTICAL
-    power_usage:
-      name: Power
     outdoor_temperature:
       name: Outdoor Temperature
       id: midea_outdoor
