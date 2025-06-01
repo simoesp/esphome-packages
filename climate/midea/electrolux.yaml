@@ -19,6 +19,8 @@ climate:
       - FREEZE_PROTECTION
     supported_swing_modes:
       - VERTICAL
+    power_usage:
+      name: Power
     outdoor_temperature:
       name: Outdoor Temperature
       id: midea_outdoor
