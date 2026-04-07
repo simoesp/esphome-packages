@@ -20,7 +20,7 @@ wifi:
 
 esphome:
   project:
-    name: "dudanov.midea-ac-control"
+    name: "dudanov.gree-ac-control"
     version: "1.0"
 
 packages:
