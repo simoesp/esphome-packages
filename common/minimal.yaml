@@ -5,7 +5,9 @@ substitutions:
   name: esphome-device
   friendly_name: ESPHome Device
   domain: ".local"
+  # IMPORTANT: Override in your device config or secrets.yaml for production use.
   ap_password: "12345678"
+  # IMPORTANT: Keep non-empty in production.
   ota_password: ""
   wifi_security: WPA2
 
